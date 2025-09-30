@@ -84,12 +84,26 @@
 //  console.table([num1,num2,num3]);
 
 
-let gamecounter = 100;
-console.log(gamecounter);
-let x = gamecounter++;
-console.table([gamecounter,x])
+// let gamecounter = 100;
+// console.log(gamecounter);
+// let x = gamecounter++;
+// console.table([gamecounter,x])
 
-let game = 100;
-console.log(game);
-let y = ++game;
-console.table([gamecounter,y])
+// let game = 100;
+// console.log(game);
+// let y = ++game;
+// console.table([gamecounter,y])
+
+
+//------COMPARISON OPERATOR-------
+console.log("2">1);//true
+console.log("02">1);//true
+console.log(null == 0);//false
+console.log(null >= 0);//true
+
+console.log(undefined == 0);//false
+console.log(undefined > 0);//false
+console.log(undefined < 0);//false
+
+//  ===   <it checks data type also...>
+console.log("2" === 2);//false
