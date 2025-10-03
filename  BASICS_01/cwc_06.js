@@ -8,11 +8,11 @@ const lname = 'choudhary'
 console.log(`Hi my name is ${name} and my lastname is ${lname}...........`)//easy to see 
 
 //another way to make a string
-const gamename = new String("Hiteshh_ss        ")
-console.log(gamename[0])
-console.log(gamename.length)
-console.log(gamename.trim())//remove all trailling spaces
-console.log(gamename.__proto__);
+const gamenNme = new String("Hiteshh_ss        ")
+console.log(gameName[0])
+console.log(gameName.length)
+console.log(gameName.trim())//remove all trailling spaces
+console.log(gameName.__proto__);
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
@@ -35,4 +35,5 @@ console.log(url.replace('%20', '-'))
 
 console.log(url.includes('sundar'))
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-'));//splits the string from that part
+console.log(gameName.includes("hit"))
