@@ -16,7 +16,7 @@ console.log(Math.min(1,8,33,22,0,-1));
 console.log(Math.max(9,23333,4444444,2));
 
 //RANDOM
-console.log(Math.random());
+console.log(Math.random());//(0,1]
   
 let min = 10;
 let max = 20;
