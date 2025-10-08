@@ -2,7 +2,7 @@
 //object.create//--will talk later(Constructor method)
 // object literals
 const mySym = Symbol("key1")//have to declare symbol before using it in object
-const jsUser ={
+const jsUser = {
     name: "Hitesh",
     "full name": "hitesh choudhary",
     [mySym]: "myKey-1",
@@ -30,6 +30,7 @@ jsUser.greetings = function(){
 jsUser.greetingsTwo = function(){
     console.log(`hii ${this.name}`);//'this' is a reference to the user
 }
-console.log(jsUser.greetings)//returns function referrene
-console.log(jsUser.greetings())
-console.log(jsUser.greetingsTwo())
+// console.log(jsUser.greetings);//returns function referrence
+// console.log(jsUser.greetings());
+// console.log(jsUser.greetingsTwo());
+
