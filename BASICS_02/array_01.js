@@ -42,13 +42,13 @@ const anotherArray = oneArray.flat(3);//or simply pass infinity as arg so it tak
 //console.log(anotherArray);
 
 
-console.log(Array.isArray("hitesh"));//checks if arfray or not
-console.log(Array.from("hitesh"));//convert it
+// console.log(Array.isArray("hitesh"));//checks if arfray or not
+// console.log(Array.from("hitesh"));//convert it
 
-console.log(Array.from({name : "kanha"}));//we have specify betn keyword and value to make string of
+// console.log(Array.from({name : "kanha"}));//we have specify betn keyword and value to make string of
 
 let score1 = 123;
 let sccore2 = 654;
 let score3 = 987;
 
-console.log(Array.of(score1,sccore2,score3));//variable to array
+console.log(Array.of(score1,sccore2,score3));//variable  to array
