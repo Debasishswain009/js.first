@@ -66,7 +66,7 @@ const course = {
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
-console.log(instructor);
+// console.log(instructor);
 
 // {
 //     "name": "hitesh",
@@ -79,3 +79,15 @@ console.log(instructor);
     {},
     {}
 ]
+
+//-----------------deconstruction of an object-----------------------
+const employee = {
+    name: "Debasish swain",
+    age: 18,
+    salary:18888888888,
+    employee_identity:"kanha0666"
+}
+// employee.employee_identity
+const {employee_identity:id} = employee;
+// console.log(employee_identity)
+console.log(id);
