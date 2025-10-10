@@ -82,3 +82,9 @@ function handleObject(anyobject){
 }
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
+/* In above function calculate cart price ....
+(...)->Rest operator->This create Array of each passed value in parameter of function
+val1 takes -> 1st element of array
+val2 takes -> 2nd element of array
+rest operator takes remaining elements..............
+*/
