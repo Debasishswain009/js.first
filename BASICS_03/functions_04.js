@@ -50,6 +50,8 @@ function loginMessage2(name = "guest"){
 // console.log(loginMessage2("kanah"))
 
 
+//--------------function and object----------------------------------------
+//using object as  parameters of another object
 const user = {
     username: "hitesh",
     prices: 199
@@ -59,3 +61,24 @@ function handleObject(anyobject){
     //interpolation of string
 }
  handleObject(user)
+ //we can also use value in source object using latter function,but the value doesn't change in source object
+ handleObject({
+    username:"kanha",
+    prices:19909
+ })
+//  console.log(user);
+
+
+ //same using array as function parameter
+ const array_1 = [1,2,3,432];
+ function greet(anyArray){
+    return anyArray[1];
+ }
+ console.log(greet(array_1));
+ console.log(greet([100,200,340,509]));
+
+ function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+
+// console.log(calculateCartPrice(200, 400, 500, 2000))
