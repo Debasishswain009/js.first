@@ -3,7 +3,7 @@ let a = 300
 if (true) {
     let a = 10//block variable
     const b = 20//block variable
-    var c = 30//globl variable
+    var c = 30//global variable
     console.log("INNER: ", a);//10
 }
 
@@ -43,7 +43,7 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+console.log(addone(5))//can be accesed before declaration
 
 function addone(num){
     return num + 1
@@ -51,7 +51,8 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5)//due to hoistiong can't be used before declaration
+//here as we have used variable to store the functon we can't use it before ddclaration
 const addTwo = function(num){
     return num + 2
 }
